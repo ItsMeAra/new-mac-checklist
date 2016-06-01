@@ -30,7 +30,7 @@ See <https://gorails.com/setup/osx/10.11-el-capitan>.
 
 
 
-### 5. Setup Terminal/iTerm2 (optional)
+### 5. Setup iTerm2 & ZSH (optional)
 iTerm2 was installed during step 2. So was updating zsh. Now you need to make sure you change your shell to zsh.  
 - To change your shell on a OS X, run `chsh -s /usr/local/bin/zsh`
 
