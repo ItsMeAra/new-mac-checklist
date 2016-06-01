@@ -52,6 +52,11 @@ See <https://gorails.com/setup/osx/10.11-el-capitan>.
   - [Wrap in tag](https://atom.io/packages/atom-wrap-in-tag)
   - [Selector to tag](https://atom.io/packages/selector-to-tag)
   - [Linter](https://atom.io/packages/linter) and [`.scss` linter](https://atom.io/packages/linter-scss-lint)
+- Install [Dracula](https://draculatheme.com/atom/) theme
+  - Go to Atom -> Preferences...
+  - Select the Install tab
+  - Click the Themes button to the right of the search box
+  - Enter dracula-theme in the search box
 
 
 ## Use it yourself
