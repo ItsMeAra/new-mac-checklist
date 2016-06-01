@@ -30,6 +30,9 @@ See <https://gorails.com/setup/osx/10.11-el-capitan>.
 iTerm2 was installed during step 2. So was updating zsh. Now you need to make sure you change your shell to zsh.  
 - To change your shell on a OS X, run `chsh -s /usr/local/bin/zsh`
 
+#### Install oh-my-zsh
+- Run `curl -L http://install.ohmyz.sh | sh`
+
 
 ### 6. Install Jekyll  
 - Run `gem install jekyll`
