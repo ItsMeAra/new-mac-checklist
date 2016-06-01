@@ -8,8 +8,8 @@ A checklist I follow when setting up a new Mac's development environment.
 ### 1. Prep OS X
 
 - Download and install latest version of Xcode from the Mac App Store.
-- Download and install Xcode Command Line Tools from <https://developer.apple.com/downloads/>.
-- 
+- Download and install Xcode Command Line Tools from <https://developer.apple.com/downloads/>.  
+
 
 ### 2. Secure Git(Hub) access
 
@@ -17,7 +17,7 @@ A checklist I follow when setting up a new Mac's development environment.
 - [Generate an access token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) for Terminal to auth your GitHub account when 2FA is enabled.
 
 
-### 3. dotfiles
+### 3. Setup dotfiles
 
 See [my dotfiles](https://github.com/ItsMeAra/dotfiles) 
 
