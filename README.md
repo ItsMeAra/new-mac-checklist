@@ -57,4 +57,6 @@ Fork this repo, or just copy-paste things you need, and make it your own.
 
 ## Works on my machine
 
-Works for me, may not work for you. 
+Works for me, may not work for you.
+
+![Dassit](http://az616578.vo.msecnd.net/files/2015/09/19/635782305346788765-336606072_2905279.jpg)
