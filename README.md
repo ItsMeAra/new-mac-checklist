@@ -51,6 +51,8 @@ See <https://gorails.com/setup/osx/10.11-el-capitan>.
 - Install favorite packages
   - [Wrap in tag](https://atom.io/packages/atom-wrap-in-tag)
   - [Selector to tag](https://atom.io/packages/selector-to-tag)
+  - [Pigments](https://atom.io/packages/pigments)
+  - [File-Icons](https://atom.io/packages/file-icons)
   - [Linter](https://atom.io/packages/linter) and [`.scss` linter](https://atom.io/packages/linter-scss-lint)
 - Install [Dracula](https://draculatheme.com/atom/) theme
   - Go to Atom -> Preferences...
