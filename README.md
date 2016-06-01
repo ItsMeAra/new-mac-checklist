@@ -20,19 +20,23 @@ See [my dotfiles](https://github.com/ItsMeAra/dotfiles)
 
 
 ### 4. Setup Ruby  
-See <https://gorails.com/setup/osx/10.11-el-capitan>.
-
+See <https://gorails.com/setup/osx/10.11-el-capitan>.  
 - Install Ruby `rbenv install 2.3.1`
 - Make it the global version `rbenv global 2.3.1`  
 - Check version `ruby -v`
 
 
-### 5. Install Jekyll  
+### 5. Setup Terminal/iTerm2
+iTerm2 was installed during step 2. So was updating zsh. Now you need to make sure you change your shell to zsh.  
+- To change your shell on a OS X, run `chsh -s /usr/local/bin/zsh`
+
+
+### 6. Install Jekyll  
 - Run `gem install jekyll`
 - ZOMG so easy.
 
 
-### 6. Download Mac App Store Apps  
+### 7. Download Mac App Store Apps  
 - [1password](https://itunes.apple.com/us/app/1password-password-manager/id443987910?mt=12)
 - [droplr](https://itunes.apple.com/us/app/droplr/id498672703?mt=12)
 - [Transmit](https://itunes.apple.com/us/app/transmit/id403388562?mt=12)
@@ -42,7 +46,7 @@ See <https://gorails.com/setup/osx/10.11-el-capitan>.
 - Moom
 
 
-### 7. Setup Atom  
+### 8. Setup Atom  
 - Enable `atom` Terminal commands: from Atom.app, open the Atom menu and select *Install Shell Commands*
 - Install favorite packages
   - [Wrap in tag](https://atom.io/packages/atom-wrap-in-tag)
@@ -56,7 +60,7 @@ See <https://gorails.com/setup/osx/10.11-el-capitan>.
   - Enter dracula-theme in the search box
 
 
-### 8. Setup Sublime-Text
+### 9. Setup Sublime-Text
 - Install [Package Control](https://packagecontrol.io/installation)
 - Install favorite packages
   - [Terminal](https://packagecontrol.io/packages/Terminal)
@@ -77,12 +81,10 @@ See <https://gorails.com/setup/osx/10.11-el-capitan>.
 
 
 ## Use it yourself
-
 Fork this repo, or just copy-paste things you need, and make it your own.
 
 
 ## Works on my machine
-
 Works for me, may not work for you.
 
 ![Dassit](http://az616578.vo.msecnd.net/files/2015/09/19/635782305346788765-336606072_2905279.jpg)
