@@ -10,13 +10,16 @@ A checklist I follow when setting up a new Mac's development environment.
 - Download and install Xcode Command Line Tools from <https://developer.apple.com/downloads/>.  
 
 
+
 ### 2. Secure Git(Hub) access  
 - [Generate new SSH key](https://help.github.com/articles/generating-ssh-keys/)
 - [Generate an access token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) for Terminal to auth your GitHub account when 2FA is enabled.
 
 
+
 ### 3. Setup dotfiles  
 See [my dotfiles](https://github.com/ItsMeAra/dotfiles) 
+
 
 
 ### 4. Setup Ruby  
@@ -26,17 +29,20 @@ See <https://gorails.com/setup/osx/10.11-el-capitan>.
 - Check version `ruby -v`
 
 
-### 5. Setup Terminal/iTerm2
+
+### 5. Setup Terminal/iTerm2 (optional)
 iTerm2 was installed during step 2. So was updating zsh. Now you need to make sure you change your shell to zsh.  
 - To change your shell on a OS X, run `chsh -s /usr/local/bin/zsh`
 
-#### Install oh-my-zsh
+Install oh-my-zsh
 - Run `curl -L http://install.ohmyz.sh | sh`
+
 
 
 ### 6. Install Jekyll  
 - Run `gem install jekyll`
 - ZOMG so easy.
+
 
 
 ### 7. Download Mac App Store Apps  
@@ -47,6 +53,7 @@ iTerm2 was installed during step 2. So was updating zsh. Now you need to make su
 - [Tweetbot](https://itunes.apple.com/us/app/tweetbot-for-twitter/id557168941?mt=12)
 - [Slicy](https://itunes.apple.com/us/app/slicy/id512533449?mt=12)
 - Moom
+
 
 
 ### 8. Setup Atom  
@@ -61,6 +68,7 @@ iTerm2 was installed during step 2. So was updating zsh. Now you need to make su
   - Select the Install tab
   - Click the Themes button to the right of the search box
   - Enter dracula-theme in the search box
+
 
 
 ### 9. Setup Sublime-Text
@@ -83,8 +91,10 @@ iTerm2 was installed during step 2. So was updating zsh. Now you need to make su
   - [Soda](https://packagecontrol.io/packages/Theme%20-%20Soda)
 
 
+
 ## Use it yourself
 Fork this repo, or just copy-paste things you need, and make it your own.
+
 
 
 ## Works on my machine
