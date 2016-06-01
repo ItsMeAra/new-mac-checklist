@@ -35,14 +35,14 @@ See <https://gorails.com/setup/osx/10.11-el-capitan>.
 - ZOMG so easy.
 
 
-### 6. Download Appstore Apps
+### 6. Download Mac App Store Apps
 
-- 1password
-- droplr
-- Transmit
-- Ulysses
-- Tweetbot
-- Slicy
+- [1password](https://itunes.apple.com/us/app/1password-password-manager/id443987910?mt=12)
+- [droplr](https://itunes.apple.com/us/app/droplr/id498672703?mt=12)
+- [Transmit](https://itunes.apple.com/us/app/transmit/id403388562?mt=12)
+- [Ulysses](https://itunes.apple.com/us/app/ulysses/id623795237?mt=12)
+- [Tweetbot](https://itunes.apple.com/us/app/tweetbot-for-twitter/id557168941?mt=12)
+- [Slicy](https://itunes.apple.com/us/app/slicy/id512533449?mt=12)
 
 
 ### 7. Setup Atom
