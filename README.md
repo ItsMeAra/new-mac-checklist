@@ -5,24 +5,21 @@ A checklist I follow when setting up a new Mac's development environment.
 
 ## Checklist
 
-### 1. Prep OS X
-
+### 1. Prep OS X  
 - Download and install latest version of Xcode from the Mac App Store.
 - Download and install Xcode Command Line Tools from <https://developer.apple.com/downloads/>.  
 
 
-### 2. Secure Git(Hub) access
-
+### 2. Secure Git(Hub) access  
 - [Generate new SSH key](https://help.github.com/articles/generating-ssh-keys/)
 - [Generate an access token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) for Terminal to auth your GitHub account when 2FA is enabled.
 
 
-### 3. Setup dotfiles
-
+### 3. Setup dotfiles  
 See [my dotfiles](https://github.com/ItsMeAra/dotfiles) 
 
 
-### 4. Setup Ruby
+### 4. Setup Ruby  
 See <https://gorails.com/setup/osx/10.11-el-capitan>.
 
 - Install Ruby `rbenv install 2.3.1`
@@ -30,13 +27,12 @@ See <https://gorails.com/setup/osx/10.11-el-capitan>.
 - Check version `ruby -v`
 
 
-### 5. Install Jekyll
+### 5. Install Jekyll  
 - Run `gem install jekyll`
 - ZOMG so easy.
 
 
-### 6. Download Mac App Store Apps
-
+### 6. Download Mac App Store Apps  
 - [1password](https://itunes.apple.com/us/app/1password-password-manager/id443987910?mt=12)
 - [droplr](https://itunes.apple.com/us/app/droplr/id498672703?mt=12)
 - [Transmit](https://itunes.apple.com/us/app/transmit/id403388562?mt=12)
@@ -45,8 +41,7 @@ See <https://gorails.com/setup/osx/10.11-el-capitan>.
 - [Slicy](https://itunes.apple.com/us/app/slicy/id512533449?mt=12)
 
 
-### 7. Setup Atom
-
+### 7. Setup Atom  
 - Enable `atom` Terminal commands: from Atom.app, open the Atom menu and select *Install Shell Commands*
 - Install favorite packages
   - [Wrap in tag](https://atom.io/packages/atom-wrap-in-tag)
@@ -58,6 +53,26 @@ See <https://gorails.com/setup/osx/10.11-el-capitan>.
   - Select the Install tab
   - Click the Themes button to the right of the search box
   - Enter dracula-theme in the search box
+
+
+### 8. Setup Sublime-Text
+- Install [Package Control](https://packagecontrol.io/installation)
+- Install favorite packages
+  - [Terminal](https://packagecontrol.io/packages/Terminal)
+  - [MarkdownEditing](https://github.com/SublimeText-Markdown/MarkdownEditing)
+  - [DoxyDoxygen](https://packagecontrol.io/packages/DoxyDoxygen)
+  - [CSS Comments](https://packagecontrol.io/packages/CSS%20Comments)
+  - [SideBarEnhancements](https://packagecontrol.io/packages/SideBarEnhancements)
+  - [Emmet](https://packagecontrol.io/packages/Emmet)
+  - [SublimeLinter](https://packagecontrol.io/packages/SublimeLinter)
+  - [BracketHighlighter](https://packagecontrol.io/packages/BracketHighlighter)
+  - [Alignment](https://packagecontrol.io/packages/Alignment)
+  - [Git](https://packagecontrol.io/packages/Git)
+  - Install syntax support for LESS, SASS/SCSS, HTML5, React, Angular
+- Install favorite themes
+  - [Spacegray](http://kkga.github.io/spacegray/)
+  - [Centurion](https://github.com/allanhortle/Centurion)
+  - [Soda](https://packagecontrol.io/packages/Theme%20-%20Soda)
 
 
 ## Use it yourself
