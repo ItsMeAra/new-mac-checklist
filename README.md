@@ -30,7 +30,12 @@ See <https://gorails.com/setup/osx/10.11-el-capitan>.
 - Check version `ruby -v`
 
 
-### 5. Download Appstore Apps
+### 5. Install Jekyll
+- Run `gem install jekyll`
+- ZOMG so easy.
+
+
+### 6. Download Appstore Apps
 
 - 1password
 - droplr
@@ -39,9 +44,8 @@ See <https://gorails.com/setup/osx/10.11-el-capitan>.
 - Tweetbot
 - Slicy
 
-  
 
-### 5. Setup Atom
+### 7. Setup Atom
 
 - Enable `atom` Terminal commands: from Atom.app, open the Atom menu and select *Install Shell Commands*
 - Install favorite packages
