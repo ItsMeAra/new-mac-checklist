@@ -39,6 +39,7 @@ See <https://gorails.com/setup/osx/10.11-el-capitan>.
 - [Ulysses](https://itunes.apple.com/us/app/ulysses/id623795237?mt=12)
 - [Tweetbot](https://itunes.apple.com/us/app/tweetbot-for-twitter/id557168941?mt=12)
 - [Slicy](https://itunes.apple.com/us/app/slicy/id512533449?mt=12)
+- Moom
 
 
 ### 7. Setup Atom  
