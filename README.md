@@ -7,7 +7,11 @@ A checklist I follow when setting up a new Mac's development environment.
 
 ### 1. Prep OS X  
 - Download and install latest version of Xcode from the Mac App Store.
-- Download and install Xcode Command Line Tools from <https://developer.apple.com/downloads/>.  
+- Download and install Xcode Command Line Tools. Run `xcode-select --install` and this will propmt you with a direct link to download.
+
+Show hidden files
+- Run `defaults write com.apple.finder AppleShowAllFiles YES`
+- Hold the ‘Option/alt’ key, then right click on the Finder icon in the dock and click Relaunch
 
 
 
