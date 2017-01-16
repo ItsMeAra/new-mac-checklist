@@ -6,12 +6,12 @@ A checklist I follow when setting up a new Mac's development environment.
 ## Checklist
 
 ### 1. Prep OS X  
-- Download and install latest version of Xcode from the Mac App Store.
-- Download and install Xcode Command Line Tools. Run `xcode-select --install` and this will propmt you with a direct link to download.
+- Download and install latest version of Xcode from the Mac App Store. (if needed)
+- Install Xcode Command Line Tools by running `xcode-select --install` in terminal.
 
 Show hidden files
 - Run `defaults write com.apple.finder AppleShowAllFiles YES`
-- Hold the ‘Option/alt’ key, then right click on the Finder icon in the dock and click Relaunch
+- Relaunch finder.
 
 
 
@@ -28,41 +28,32 @@ During this process, you will setup your dotfiles as well as install [non Mac Ap
 
 
 
-### 4. Setup Ruby  
-See <https://gorails.com/setup/osx/10.11-el-capitan>.  
+### 4. Set Ruby Version  
+rbenv was installed in step 3, now set the version. 
+Via: <https://gorails.com/setup/osx/10.11-el-capitan>.  
 - Install Ruby `rbenv install 2.3.1`
 - Make it the global version `rbenv global 2.3.1`  
 - Check version `ruby -v`
 
 
 
-### 5. Setup iTerm2 & ZSH (optional)
-iTerm2 was installed during step 2. So was updating zsh. Now you need to make sure you change your shell to zsh.  
-- To change your shell on a OS X, run `chsh -s /usr/local/bin/zsh`
-
-Install oh-my-zsh
-- Run `curl -L http://install.ohmyz.sh | sh`
-
-
-
-### 6. Install Jekyll  
+### 5. Install Jekyll  
 - Run `gem install jekyll`
 - ZOMG so easy.
 
 
 
-### 7. Download Mac App Store Apps  
+### 6. Download Mac App Store Apps  
 - [1password](https://itunes.apple.com/us/app/1password-password-manager/id443987910?mt=12)
 - [droplr](https://itunes.apple.com/us/app/droplr/id498672703?mt=12)
 - [Transmit](https://itunes.apple.com/us/app/transmit/id403388562?mt=12)
 - [Ulysses](https://itunes.apple.com/us/app/ulysses/id623795237?mt=12)
-- [Tweetbot](https://itunes.apple.com/us/app/tweetbot-for-twitter/id557168941?mt=12)
 - [Slicy](https://itunes.apple.com/us/app/slicy/id512533449?mt=12)
 - Moom
 
 
 
-### 8. Setup Atom  
+### 7. Setup Atom  
 - Enable `atom` Terminal commands: from Atom.app, open the Atom menu and select *Install Shell Commands*
 - Install favorite packages
   - [Wrap in tag](https://atom.io/packages/atom-wrap-in-tag)
@@ -77,7 +68,7 @@ Install oh-my-zsh
 
 
 
-### 9. Setup Sublime-Text
+### 8. Setup Sublime-Text
 - Install [Package Control](https://packagecontrol.io/installation)
 - Install favorite packages
   - [Terminal](https://packagecontrol.io/packages/Terminal)
