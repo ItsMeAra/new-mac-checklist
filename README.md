@@ -44,7 +44,6 @@ Via: <https://gorails.com/setup/osx/10.11-el-capitan>.
 
 
 ### 6. Download Mac App Store Apps  
-- [1password](https://itunes.apple.com/us/app/1password-password-manager/id443987910?mt=12)
 - [droplr](https://itunes.apple.com/us/app/droplr/id498672703?mt=12)
 - [Transmit](https://itunes.apple.com/us/app/transmit/id403388562?mt=12)
 - [Ulysses](https://itunes.apple.com/us/app/ulysses/id623795237?mt=12)
@@ -65,27 +64,6 @@ Via: <https://gorails.com/setup/osx/10.11-el-capitan>.
   - Select the Install tab
   - Click the Themes button to the right of the search box
   - Enter dracula-theme in the search box
-
-
-
-### 8. Setup Sublime-Text
-- Install [Package Control](https://packagecontrol.io/installation)
-- Install favorite packages
-  - [Terminal](https://packagecontrol.io/packages/Terminal)
-  - [MarkdownEditing](https://github.com/SublimeText-Markdown/MarkdownEditing)
-  - [DoxyDoxygen](https://packagecontrol.io/packages/DoxyDoxygen)
-  - [CSS Comments](https://packagecontrol.io/packages/CSS%20Comments)
-  - [SideBarEnhancements](https://packagecontrol.io/packages/SideBarEnhancements)
-  - [Emmet](https://packagecontrol.io/packages/Emmet)
-  - [SublimeLinter](https://packagecontrol.io/packages/SublimeLinter)
-  - [BracketHighlighter](https://packagecontrol.io/packages/BracketHighlighter)
-  - [Alignment](https://packagecontrol.io/packages/Alignment)
-  - [Git](https://packagecontrol.io/packages/Git)
-  - Install syntax support for LESS, SASS/SCSS, HTML5, React, Angular
-- Install favorite themes
-  - [Spacegray](http://kkga.github.io/spacegray/)
-  - [Centurion](https://github.com/allanhortle/Centurion)
-  - [Soda](https://packagecontrol.io/packages/Theme%20-%20Soda)
 
 
 
