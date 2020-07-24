@@ -46,24 +46,12 @@ Via: <https://gorails.com/setup/osx/10.11-el-capitan>.
 ### 6. Download Mac App Store Apps  
 - [droplr](https://itunes.apple.com/us/app/droplr/id498672703?mt=12)
 - [Transmit](https://itunes.apple.com/us/app/transmit/id403388562?mt=12)
-- [Ulysses](https://itunes.apple.com/us/app/ulysses/id623795237?mt=12)
-- [Slicy](https://itunes.apple.com/us/app/slicy/id512533449?mt=12)
 - Moom
 
 
 
-### 7. Setup Atom  
-- Enable `atom` Terminal commands: from Atom.app, open the Atom menu and select *Install Shell Commands*
-- Install favorite packages
-  - [Wrap in tag](https://atom.io/packages/atom-wrap-in-tag)
-  - [Selector to tag](https://atom.io/packages/selector-to-tag)
-  - [Pigments](https://atom.io/packages/pigments)
-  - [Linter](https://atom.io/packages/linter) and [`.scss` linter](https://atom.io/packages/linter-scss-lint)
-- Install [Dracula](https://draculatheme.com/atom/) theme
-  - Go to Atom -> Preferences...
-  - Select the Install tab
-  - Click the Themes button to the right of the search box
-  - Enter dracula-theme in the search box
+### 7. Setup VSCode  
+- Coming soon
 
 
 
