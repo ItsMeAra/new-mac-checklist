@@ -37,9 +37,8 @@ Via: <https://gorails.com/setup/osx/10.11-el-capitan>.
 
 
 
-### 5. Install Jekyll & Co  
+### 5. Install Jekyll  
 - Run `gem install jekyll bundler`
-- ZOMG so easy.
 
 
 
