@@ -43,10 +43,18 @@ $ source ~/.nvm/nvm.sh
 
 ### 5. Set Ruby Version  
 rbenv was installed in step 3, now set the version. 
-Via: <https://gorails.com/setup/osx/10.11-el-capitan>.  
-- Install Ruby `rbenv install 2.3.1`
-- Make it the global version `rbenv global 2.3.1`  
-- Check version `ruby -v`
+Via: <https://gorails.com/setup/osx/10.15-catalina>.  
+
+```
+# Add rbenv to bash so that it loads every time you open a terminal
+$ echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.zshrc
+$ source ~/.zshrc
+
+# Install Ruby, set global default, and check version to confirm
+$ rbenv install 2.7.1
+$ rbenv global 2.7.1
+$ ruby -v
+```
 
 
 
