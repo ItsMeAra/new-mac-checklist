@@ -21,14 +21,26 @@ Show hidden files
 
 
 
-### 3. Setup dotfiles  
+#### 3. Setup dotfiles  
 See [my dotfiles](https://github.com/ItsMeAra/dotfiles) 
 
 During this process, you will setup your dotfiles as well as install [non Mac App Store apps](https://github.com/ItsMeAra/dotfiles/blob/master/brew-cask.txt) all via Homebrew. `#magic`
 
+#### 4. Install NVM  
 
+Install NVM by running this:
 
-### 4. Set Ruby Version  
+```bash
+$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+```
+
+Then, run this:
+
+```bash
+$ source ~/.nvm/nvm.sh
+```
+
+### 5. Set Ruby Version  
 rbenv was installed in step 3, now set the version. 
 Via: <https://gorails.com/setup/osx/10.11-el-capitan>.  
 - Install Ruby `rbenv install 2.3.1`
@@ -37,20 +49,8 @@ Via: <https://gorails.com/setup/osx/10.11-el-capitan>.
 
 
 
-### 5. Install Jekyll  
+### 6. Install Jekyll  
 - Run `gem install jekyll bundler`
-
-
-
-### 6. Download Mac App Store Apps  
-- [droplr](https://itunes.apple.com/us/app/droplr/id498672703?mt=12)
-- [Transmit](https://itunes.apple.com/us/app/transmit/id403388562?mt=12)
-- Moom
-
-
-
-### 7. Setup VSCode  
-- Coming soon
 
 
 
