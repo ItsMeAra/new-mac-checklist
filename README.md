@@ -21,12 +21,12 @@ Show hidden files
 
 
 
-#### 3. Setup dotfiles  
+### 3. Setup dotfiles  
 See [my dotfiles](https://github.com/ItsMeAra/dotfiles) 
 
 During this process, you will setup your dotfiles as well as install [non Mac App Store apps](https://github.com/ItsMeAra/dotfiles/blob/master/brew-cask.txt) all via Homebrew. `#magic`
 
-#### 4. Install NVM  
+### 4. Install NVM  
 
 Install NVM by running this:
 
