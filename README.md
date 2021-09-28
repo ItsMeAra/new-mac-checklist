@@ -98,8 +98,32 @@ And check that GEM PATHS: points to a path in your home directory.
 
 ### 7. Install Oh My ZSH 
 
+Install Oh My ZSH! via curl
+
 ```
-$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+$ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+#### Install Powerline fonts
+
+Clone powerline fonts repo:
+
+```
+git clone https://github.com/powerline/fonts.git --depth=1
+```
+
+Install them:
+
+```
+cd fonts
+./install.sh
+```
+
+Delete
+
+```
+cd ..
+rm -rf fonts
 ```
 
 Update plugins and theme
