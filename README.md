@@ -96,6 +96,32 @@ gem env
 And check that GEM PATHS: points to a path in your home directory.
 
 
+### 7. Install Oh My ZSH 
+
+```
+$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+Update plugins and theme
+
+```
+vi ~/.zshrc
+```
+```
+plugins=(
+  git
+  bundler
+  dotenv
+  osx
+  rake
+  rbenv
+  ruby
+)
+
+ZSH_THEME="agnoster"
+```
+Note: many themes require installing the Powerline Fonts in order to render properly.
+
 
 ## Use it yourself
 Fork this repo, or just copy-paste things you need, and make it your own.
