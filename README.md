@@ -56,8 +56,8 @@ $ echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.zshrc
 $ source ~/.zshrc
 
 # Install Ruby, set global default, and check version to confirm
-$ rbenv install 2.7.1
-$ rbenv global 2.7.1
+$ rbenv install 3.0.2
+$ rbenv global 3.0.2
 $ ruby -v
 ```
 
@@ -74,8 +74,6 @@ and then get your Ruby version using
 
 ```
 $ ruby -v
-
-# Should return something like: ruby 2.7.1p83 (2020-03-31 revision a0c7c23c9c)
 ```
 Then append your path file with the following, replacing the X.X with the first two digits of your Ruby version.
 
