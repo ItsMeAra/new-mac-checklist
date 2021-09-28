@@ -32,7 +32,7 @@ During this process, you will setup your dotfiles as well as install [non Mac Ap
 Install NVM by running this:
 
 ```bash
-$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 ```
 
 Then, run this:
