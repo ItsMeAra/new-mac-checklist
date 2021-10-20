@@ -67,6 +67,10 @@ Install the version you want:
 $ nvm install v15.4.0
 ```
 
+Or just install latest version:
+```bash
+$ nvm install stable
+```
 
 
 
