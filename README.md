@@ -26,7 +26,7 @@ EOD
 Show hidden files
 - Run `defaults write com.apple.finder AppleShowAllFiles YES`
 - Relaunch finder.
-- Or, just open finder and press CMD+.
+- Or, just open finder and press `CMD .`
 
 
 
