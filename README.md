@@ -35,12 +35,7 @@ Show hidden files
 
 
 
-### 3. Setup dotfiles  
-See [my dotfiles](https://github.com/ItsMeAra/dotfiles) 
-
-During this process, you will setup your dotfiles as well as install [non Mac App Store apps](https://github.com/ItsMeAra/dotfiles/blob/master/brew-cask.txt) all via Homebrew. `#magic`
-
-### 4. Install NVM  
+### 3. Install NVM  
 
 Install NVM by running this:
 
@@ -53,6 +48,25 @@ Then, run this:
 ```bash
 $ source ~/.nvm/nvm.sh
 ```
+
+Get list of versions:
+```bash
+$ nvm list-remote
+```
+
+Install the version you want:
+```bash
+$ nvm install v15.4.0
+```
+
+
+
+### 4. Setup dotfiles  
+See [my dotfiles](https://github.com/ItsMeAra/dotfiles) 
+
+During this process, you will setup your dotfiles as well as install [non Mac App Store apps](https://github.com/ItsMeAra/dotfiles/blob/master/brew-cask.txt) all via Homebrew. `#magic`
+
+
 
 ### 5. Set Ruby Version  
 rbenv was installed in step 3, now set the version. 
