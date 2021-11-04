@@ -1,4 +1,4 @@
-# New-Mac-Checklist
+# New-Mac-Checklist: macOS Monterey
 
 A checklist I follow when setting up a new Mac's development environment.
 
