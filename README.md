@@ -139,6 +139,8 @@ $ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/instal
 
 #### Install Powerline fonts
 
+> Note: many themes require installing the Powerline Fonts in order to render properly.
+
 Clone powerline fonts repo:
 
 ```
@@ -177,7 +179,7 @@ plugins=(
 
 ZSH_THEME="agnoster"
 ```
-Note: many themes require installing the Powerline Fonts in order to render properly.
+
 
 
 ## Use it yourself
