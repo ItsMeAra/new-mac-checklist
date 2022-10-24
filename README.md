@@ -23,10 +23,8 @@ osascript <<EOD
 EOD
 ```
 
-Show hidden files
+### Show hidden files
 - Run `defaults write com.apple.finder AppleShowAllFiles -boolean true; killall Finder`
-- Relaunch finder.
-- Or, just open finder and press the `Command + Shift + **` keys together.
 
 
 ### Setup dotfiles  
