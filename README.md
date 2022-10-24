@@ -45,7 +45,7 @@ During this process, you will setup your dotfiles, install global npm packages, 
 [Install NVM](https://github.com/nvm-sh/nvm#installing-and-updating) by running this:
 
 ```bash
-$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
 ```
 
 Then, run this:
@@ -61,7 +61,8 @@ $ nvm list-remote
 
 Install the version you want:
 ```bash
-$ nvm install v15.4.0
+$ nvm install 18
+$ nvm use 18
 ```
 
 Or just install latest version:
