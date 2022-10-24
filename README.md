@@ -24,17 +24,9 @@ EOD
 ```
 
 Show hidden files
-- Run `defaults write com.apple.finder AppleShowAllFiles YES`
+- Run `defaults write com.apple.finder AppleShowAllFiles -boolean true; killall Finder`
 - Relaunch finder.
-- Or, just open finder and press `CMD .`
-
-
-
-### Secure Git(Hub) access  
-- [Generate new SSH key](https://help.github.com/articles/generating-ssh-keys/)
-- [Generate an access token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) for Terminal to auth your GitHub account when 2FA is enabled.
-
-
+- Or, just open finder and press the `Command + Shift + **` keys together.
 
 
 ### Setup dotfiles  
@@ -42,6 +34,10 @@ See [my dotfiles](https://github.com/ItsMeAra/dotfiles)
 
 During this process, you will setup your dotfiles, install global npm packages, and install [non Mac App Store apps](https://github.com/ItsMeAra/dotfiles/blob/master/brew-cask.txt) all via Homebrew. `#magic`
 
+
+### Secure Git(Hub) access  
+[https://cli.github.com/manual/](https://cli.github.com/manual/). 
+- Run `gh auth login`
 
 
 ### Install NVM  
