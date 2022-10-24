@@ -1,4 +1,4 @@
-# New-Mac-Checklist: macOS Big Sur/Monterey
+# New-Mac-Checklist: macOS Big Sur/Monterey/Ventura
 
 A checklist I follow when setting up a new Mac's development environment.
 
