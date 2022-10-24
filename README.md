@@ -38,6 +38,60 @@ During this process, you will setup your dotfiles, install global npm packages, 
 - Run `gh auth login`
 
 
+
+### Install Oh My ZSH 
+
+Install Oh My ZSH! via curl
+
+```
+$ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+#### Install Powerline fonts
+
+> Note: many themes require installing the Powerline Fonts in order to render properly.
+
+Clone powerline fonts repo:
+
+```
+$ git clone https://github.com/powerline/fonts.git --depth=1
+```
+
+Install them:
+
+```
+$ cd fonts
+$ ./install.sh
+```
+
+Delete
+
+```
+$ cd ..
+$ rm -rf fonts
+```
+
+Update plugins and theme
+
+```
+$ vi ~/.zshrc
+```
+```
+plugins=(
+  git
+  bundler
+  dotenv
+  macos
+  rake
+  rbenv
+  ruby
+)
+
+ZSH_THEME="agnoster"
+```
+
+
+
 ### Install NVM  
 
 [Install NVM](https://github.com/nvm-sh/nvm#installing-and-updating) by running this:
@@ -121,59 +175,6 @@ gem env
 And check that GEM PATHS: points to a path in your home directory.
 
 -->
-
-
-
-### Install Oh My ZSH 
-
-Install Oh My ZSH! via curl
-
-```
-$ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
-
-#### Install Powerline fonts
-
-> Note: many themes require installing the Powerline Fonts in order to render properly.
-
-Clone powerline fonts repo:
-
-```
-$ git clone https://github.com/powerline/fonts.git --depth=1
-```
-
-Install them:
-
-```
-$ cd fonts
-$ ./install.sh
-```
-
-Delete
-
-```
-$ cd ..
-$ rm -rf fonts
-```
-
-Update plugins and theme
-
-```
-$ vi ~/.zshrc
-```
-```
-plugins=(
-  git
-  bundler
-  dotenv
-  macos
-  rake
-  rbenv
-  ruby
-)
-
-ZSH_THEME="agnoster"
-```
 
 
 
