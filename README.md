@@ -77,15 +77,7 @@ Update plugins and theme
 $ vi ~/.zshrc
 ```
 ```
-plugins=(
-  git
-  bundler
-  dotenv
-  macos
-  rake
-  rbenv
-  ruby
-)
+plugins=( git bundler dotenv macos rake rbenv ruby )
 
 ZSH_THEME="agnoster"
 ```
